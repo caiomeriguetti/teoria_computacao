@@ -1,0 +1,25 @@
+#
+# Lista 1
+#
+
+2.a) lista1/prim.py
+2.b) lista1/matrix_multi.py
+
+#
+# Lista 2
+#
+
+1.a) lista2/conjunto_independente_maximal.py -> check_independente
+1.b) lista2/conjunto_independente_maximal.py -> check_independente_maximal
+1.c) lista2/conjunto_independente_maximal.py -> get_independente_maximal
+5.a) lista2/clique.py -> get_max_civ
+
+  Neste exercício basta perceber que ao encontrar uma clique maxima, você
+  estará encontrando um civ máximo do complemento. Sendo assim, para encontrar
+  o civ maximo basta converter o grafo de entrada no complemento e achar
+  uma clique maxima neste complemento. Os vertices da clique encontrada
+  serão um civ maximo de g
+
+6.a) lista2/conjunto_independente_maximal.py -> cind_max_2
+6.b) Foi rodado o algorítmo e o mesmo conseguiu encontrar um civ maximo
+     mais rapido.
